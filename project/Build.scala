@@ -16,7 +16,7 @@ object Build extends Build {
       version := "0.0.1",
       libraryDependencies ++= Seq(
         "net.databinder.dispatch" %% "dispatch-core" % "0.10.0",
-        "io.argonaut" %% "argonaut" % "6.0-M4"
+        "io.argonaut" %% "argonaut" % "6.0-M7"
       ),
       initialCommands in console += Seq(
         "argonaut._",
